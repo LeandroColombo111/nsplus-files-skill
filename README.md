@@ -37,7 +37,8 @@ for a Programación I course at ORT).
 
 ## License
 
-Personal project for study purposes.
+Personal project for study purposes, released under the MIT License (see
+[`LICENSE`](LICENSE)).
 
 `nsplus_lib/js/**` are verbatim copies of the client-side source of
 [XNSDiagrams](https://github.com/CharlyCimino/XNSDiagrams), Copyright (c) 2018
