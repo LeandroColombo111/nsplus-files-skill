@@ -4,6 +4,9 @@ Read and write `.nsplus` files (the format used by the [NS+](https://nsplusowner
 Nassi-Shneiderman diagram tool) from the command line, without opening the
 web editor.
 
+Built on top of **[XNSDiagrams](https://github.com/CharlyCimino/XNSDiagrams)**,
+the open-source engine behind NS+.
+
 It works by running the NS+ tool's **own** extracted JavaScript source inside
 a Node + [jsdom](https://github.com/jsdom/jsdom) sandbox, so the generated
 files are structurally identical to ones the live editor itself would
@@ -34,6 +37,11 @@ for a Programación I course at ORT).
 
 ## License
 
-Personal project for study purposes. `nsplus_lib/js/**` are verbatim copies
-of the NS+ tool's own client-side source, included so the generator can run
-them locally — all credit for that code goes to the original NS+ project.
+Personal project for study purposes.
+
+`nsplus_lib/js/**` are verbatim copies of the client-side source of
+[XNSDiagrams](https://github.com/CharlyCimino/XNSDiagrams), Copyright (c) 2018
+axxonita, distributed under the MIT License (see
+[`nsplus_lib/js/LICENSE`](nsplus_lib/js/LICENSE)). They are included so the
+generator can run them locally — all credit for that code goes to the original
+project.
